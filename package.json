@@ -1,0 +1,22 @@
+{
+  "name": "ase-285-assignment-8",
+  "version": "1.0.0",
+  "description": "This project is meant to be the final submission for ASE 285.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmlpamonag/ASE-285-Assignment-8.git"
+  },
+  "author": "Jyhdel Pamomah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmlpamonag/ASE-285-Assignment-8/issues"
+  },
+  "homepage": "https://github.com/jmlpamonag/ASE-285-Assignment-8#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}

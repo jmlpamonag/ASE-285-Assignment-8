@@ -25,11 +25,7 @@ function passwordjs() {
     const encryptedFile = readFile(process.argv[2])
     const userEmail = String(process.argv[3])
     const userPassword = String(process.argv[4]) + '\r'
-
-    // const encryptedFile = readFile('passwordtest.enc.txt')
-    // const userEmail = 'henry.taylor@edu.com'
-    // const userPassword = 'educatorbest'
-
+    
     let verified;
 
     for (let i in encryptedFile) {

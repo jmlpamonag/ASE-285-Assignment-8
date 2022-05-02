@@ -4,7 +4,7 @@
   "description": "This project is meant to be the final submission for ASE 285.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \\\"Error: no tests specified\\\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jmlpamonag/ASE-285-Assignment-8#readme",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "fs": "^0.0.1-security",
     "jest": "^27.5.1"
   }

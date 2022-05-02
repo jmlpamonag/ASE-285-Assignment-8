@@ -18,7 +18,7 @@ function readFile(fileName) {
 
 function writeFile(ar, fileName) {
     try {
-        var res = ar.join("\n")
+        let res = ar.join("\n")
         fs.writeFileSync(fileName, res)
     } catch (err) {
         console.log(err)

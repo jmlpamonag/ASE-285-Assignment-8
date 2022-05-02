@@ -28,8 +28,8 @@ describe("toHash should return a hashed password", () => {
 
 describe("makepassword should create file", () => {
     test('', async () => {
-        const fileName = './password.txt'
-        const encFileName = './password.enc.txt'
+        const fileName = './passwordtest.txt'
+        const encFileName = './passwordtest.enc.txt'
 
         // 1. Make sure password.enc.txt does not exist before running the function.
         if (fs.existsSync(encFileName)) {
@@ -44,8 +44,8 @@ describe("makepassword should create file", () => {
     })
 
     test('Verify user email and password', async () => {
-        const fileName = './password.txt'
-        const encFileName = './password.enc.txt'
+        const fileName = './passwordtest.txt'
+        const encFileName = './passwordtest.enc.txt'
 
         let file = u.readFile(fileName)
         let encryptedFile = u.readFile(encFileName)
